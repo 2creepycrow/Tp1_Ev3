@@ -1,17 +1,11 @@
  # TP1_Eva3
-Este es un proyecto para la clase de entorno de desarrollo en el cual nos han proporcionado varias clases con sus test, para que, a partir de ellos generemos una clase JUnitSuite, lo compilemos y lo ejecutemos correctamente.
-
-## Para compilar el proyecto:
-`javac -cp <directorio_de_jarjunit>/*:. *.java`
-
-*Ejemplo*
-
-`javac -cp /home/alumnado/jarjunit/*:. *.java`
+ 
+ class project for ED
+ 
+## To compile the project you can use the following command:
+`javac -cp <jarjunit_directory>/*:. *.java`
 
 
- ## Para ejecutar el TestSuit:
-`java -cp <directorio_de_jarjunit>/*:. org.junit.runner.JUnitCore <nombre_del_test>`
+ ## To execute the TestSuit you can use the following command:
+`java -cp <jarjunit_directory>/*:. org.junit.runner.JUnitCore <test_name>`
 
-*Ejemplo*
-
-`java -cp /home/alumnado/jarjunit/*:. org.junit.runner.JUnitCore JunitTestSuite`
